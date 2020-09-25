@@ -9,6 +9,36 @@
 
 - Ruby on Rails,
 
+### Prerequisites
+
+- Ruby 2.5.1
+- Rails 5.2.4.4
+- Node.JS
+- Rubocop
+
+### Setup
+
+Clone the project from [here](https://github.com/jacobo12montes/micro-reddit)
+
+### Install
+
+Change into the main project directory and run `bundle install` to install all the gems for the project
+
+### Usage
+
+The project can be tested on the console opened within the root folder.
+- Run database migrations with `rails db:migrate`
+- Start the rails console with `rails console`
+
+A user can be created by running `User.create(username:<username>, password: <password>)`
+
+A post can be created by running `Post.create(title:<tite>, url: <url>, user_id: <user_id>)`
+
+A comment can be created by running `Comment.create(body:<tite>, post_id: <post_id>, user_id: <user_id>)`
+
+
+### Run linters
+run `rubocop .`
 
 ## Authors
 
